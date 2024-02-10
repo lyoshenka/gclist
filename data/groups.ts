@@ -41,5 +41,19 @@ export const groups: Group[] = [
     image: "https://i.seadn.io/s/raw/files/05a900040633a89c5b1396155cad3b8b.png?auto=format&dpr=1&w=1000",
     inviteLink: "https://warpcast.com/~/group/7adDG4bTm20Wndl1AO4Ftw",
     requiredNFT: "https://opensea.io/collection/farcaster-og-1",
-  }
+  },
+  {
+    name: "i am sitting in a smart contract Hypersub membership",
+    description: "i am sitting in a smart contract gc",
+    image: "https://res.cloudinary.com/merkle-manufactory/image/fetch/c_fill,f_jpg,w_144/https%3A%2F%2Fi.imgur.com%2Fibl43A2.jpg",
+    inviteLink: "https://warpcast.com/~/group/BCDE_qTe_n-fosjF3G0_qQ",
+    requiredNFT: "https://opensea.io/collection/i-am-sitting-in-a-smart-contract-1",
+  },
+  {
+    name: "Open Finance",
+    description: "/openfinance gc",
+    image: "https://res.cloudinary.com/merkle-manufactory/image/fetch/c_fill,f_jpg,w_144/https%3A%2F%2Fi.imgur.com%2FKJEWUsu.jpg",
+    inviteLink: "https://warpcast.com/~/group/mrSTegwMeGJzYId_YcTWpQ",
+    requiredNFT: "https://opensea.io/collection/lilcaster",
+  },
 ];
