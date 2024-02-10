@@ -35,4 +35,11 @@ export const groups: Group[] = [
     inviteLink: "https://warpcast.com/purp",
     requiredNFT: "https://opensea.io/collection/degen-haberdashers",
   },
+  {
+    name: "Farcaster OGs",
+    description: "Farcaster OG NFT holders",
+    image: "https://i.seadn.io/s/raw/files/05a900040633a89c5b1396155cad3b8b.png?auto=format&dpr=1&w=1000",
+    inviteLink: "https://warpcast.com/~/group/7adDG4bTm20Wndl1AO4Ftw",
+    requiredNFT: "https://opensea.io/collection/farcaster-og-1",
+  }
 ];
