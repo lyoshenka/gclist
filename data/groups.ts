@@ -43,20 +43,6 @@ export const groups: Group[] = [
     requiredNFT: "https://opensea.io/collection/farcaster-og-1",
   },
   {
-    name: "OGs Alpha",
-    description: "Alpha for Farcaster OG NFT holders",
-    image: "https://i.seadn.io/s/raw/files/05a900040633a89c5b1396155cad3b8b.png?auto=format&dpr=1&w=1000",
-    inviteLink: "https://warpcast.com/~/group/pTZDqb1wwNuAMIUYMhC9rA",
-    requiredNFT: "https://opensea.io/collection/farcaster-og-1",
-  },
-  {
-    name: "Farcaster OGs",
-    description: "Currently Active Farcaster OG NFT holders",
-    image: "https://i.seadn.io/s/raw/files/05a900040633a89c5b1396155cad3b8b.png?auto=format&dpr=1&w=1000",
-    inviteLink: "https://warpcast.com/~/group/vM2xPAvl-apsQ9DvdigUKw",
-    requiredNFT: "https://opensea.io/collection/farcaster-og-1",
-  },
-  {
     name: "i am sitting in a smart contract Hypersub membership",
     description: "i am sitting in a smart contract gc",
     image: "https://res.cloudinary.com/merkle-manufactory/image/fetch/c_fill,f_jpg,w_144/https%3A%2F%2Fi.imgur.com%2Fibl43A2.jpg",
