@@ -47,7 +47,7 @@ export const groups: Group[] = [
     description: "i am sitting in a smart contract gc",
     image: "https://res.cloudinary.com/merkle-manufactory/image/fetch/c_fill,f_jpg,w_144/https%3A%2F%2Fi.imgur.com%2Fibl43A2.jpg",
     inviteLink: "https://warpcast.com/~/group/BCDE_qTe_n-fosjF3G0_qQ",
-    requiredNFT: "https://opensea.io/collection/i-am-sitting-in-a-smart-contract-1",
+    requiredNFT: null,
   },
   {
     name: "Open Finance",
