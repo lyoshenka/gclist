@@ -9,6 +9,35 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Open Warpcast Groups",
   description: "Cozy chats on Warpcast",
+  icons: [
+    {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      url: "/img/apple-touch-icon.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      url: "/img/favicon-32x32.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      url: "/img/favicon-16x16.png",
+    },
+    {
+      rel: "shortcut icon",
+      url: "/img/favicon.ico",
+    },
+  ],
+  manifest: "/img/site.webmanifest",
+  other: {
+    "msapplication-TileColor": "#da532c",
+    "msapplication-config": "/img/browserconfig.xml",
+    "theme-color": "#ffffff",
+  },
 };
 
 export default function RootLayout({
@@ -18,30 +47,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/img/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/img/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/img/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/img/site.webmanifest" />
-        <link rel="shortcut icon" href="/img/favicon.ico" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="msapplication-config" content="/img/browserconfig.xml" />
-        <meta name="theme-color" content="#ffffff" />
-      </head>
       <body className={inter.className}>
         {children}
         <Analytics />
