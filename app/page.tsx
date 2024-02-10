@@ -11,6 +11,7 @@ export default function Home() {
           <div className={styles.group} key={group.name}>
             <div className={styles.groupTop}>
               <div className={styles.nameAndPic}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={group.image}
                   alt={group.name}
@@ -43,9 +44,22 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <div>
+      <div className={styles.add}>
+        <Link
+          className={styles.link}
+          href={"https://github.com/lyoshenka/gclist/edit/main/data/groups.ts"}
+          target={"_blank"}
+        >
+          Add your group here
+        </Link>
+      </div>
+      <div className={styles.footer}>
         Made by{" "}
-        <Link className={styles.link} href={"https://warpcast.com/grin"}>
+        <Link
+          className={styles.link}
+          href={"https://warpcast.com/grin"}
+          target={"_blank"}
+        >
           Grin
         </Link>
         .
