@@ -9,6 +9,19 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Open Warpcast Groups",
   description: "Cozy chats on Warpcast",
+  metadataBase: new URL('https://gclist.vercel.app'),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    title: "Open Warpcast Groups",
+    description: "Cozy chats on Warpcast",
+    siteName: "Open Warpcast Groups",
+    images: [
+      {
+        url: "/img/logo.png",
+      },
+    ],
+  },
   icons: [
     {
       rel: "apple-touch-icon",
