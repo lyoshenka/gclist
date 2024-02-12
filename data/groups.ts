@@ -8,6 +8,13 @@ type Group = {
 
 export const groups: Group[] = [
   {
+    name: "Footy watch along at ETH Denver",
+    description: "Footy watch along at ETH Denver, open group organizing watch party Sunday March 2nd",
+    image: "https://i.imgur.com/3SAYi17.jpg",
+    inviteLink: "https://warpcast.com/~/group/HmGeOIknfY9t2yRvA3dGeA",
+    requiredNFT: null,
+  },
+  {
     name: "FarCon '24 Summit",
     description: "FarCon 2024 Summit Day (thursday) ticketholders",
     image: "https://raw.seadn.io/files/39345793c7da0d41bba2f86bf57fb46f.webp",
