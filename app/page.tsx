@@ -6,6 +6,15 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Open Warpcast Groups</h1>
+      <div className={styles.add}>
+        <Link
+          className={styles.link}
+          href={"https://github.com/lyoshenka/gclist/edit/main/data/groups.ts"}
+          target={"_blank"}
+        >
+          Add your group here
+        </Link>
+      </div>
       <div className={styles.groups}>
         {groups
           .sort((a, b) =>
