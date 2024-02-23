@@ -70,4 +70,11 @@ export const groups: Group[] = [
     inviteLink: "https://warpcast.com/~/group/vLROAzkUNx3xG7HnpVDM5w",
     requiredNFT: "https://opensea.io/collection/visioncasts",
   },
+  {
+    name: "Club TED",
+    description: "ted's hypersubbies",
+    image: "https://res.cloudinary.com/merkle-manufactory/image/fetch/c_fill,f_jpg/https%3A%2F%2Fi.imgur.com%2FKK9PXqa.jpg",
+    inviteLink: "https://warpcast.com/~/group/1c5VX-hhtNFMiwRNGB-f0w",
+    requiredNFT: "https://opensea.io/collection/club-ted",
+  },
 ];
